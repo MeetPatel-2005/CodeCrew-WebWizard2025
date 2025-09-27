@@ -31,7 +31,7 @@ The system provides a **secure login for admins only** (no signup option for adm
 
 ## 🖼️ Project Preview  
 ![Library Management System](./assets/website-preview.png)  
-*(Replace `./assets/website-preview.png` with the actual path of your screenshot in the repo)*  
+![Solution to problem 1](1.png)
 
 ---
 
