@@ -31,6 +31,8 @@ The system provides a **secure login for admins only** (no signup option for adm
 
 ## 🖼️ Project Preview  
 
+## Features For Student
+
 ![Solution to problem 1](1.png)
 
 ![Solution to problem 1](2.png)
@@ -40,6 +42,8 @@ The system provides a **secure login for admins only** (no signup option for adm
 ![Solution to problem 1](4.png)
 
 ![Solution to problem 1](5.png)
+
+## Features For Admin
 
 ![Solution to problem 1](6.png)
 
