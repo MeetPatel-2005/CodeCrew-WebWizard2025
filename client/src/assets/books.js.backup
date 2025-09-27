@@ -1,0 +1,336 @@
+// Book categories
+export const bookCategories = [
+    'Fiction',
+    'Non-Fiction', 
+    'Science',
+    'Technology',
+    'History',
+    'Biography',
+    'Literature',
+    'Philosophy',
+    'Arts',
+    'Business',
+    'Health',
+    'Education',
+    'Reference',
+    'Children',
+    'Young Adult'
+];
+
+// Import book images from assets2
+import book1 from '../assets2/books/book-1.png'
+import book2 from '../assets2/books/book-2.png'
+import book3 from '../assets2/books/book-3.png'
+import book4 from '../assets2/books/book-4.png'
+import book5 from '../assets2/books/book-5.png'
+import book6 from '../assets2/books/book-6.png'
+import book7 from '../assets2/books/book-7.png'
+import book8 from '../assets2/books/book-8.png'
+import book9 from '../assets2/books/book-9.png'
+import book10 from '../assets2/books/book-10.png'
+import book11 from '../assets2/books/book-11.png'
+import book12 from '../assets2/books/book-12.png'
+import book13 from '../assets2/books/book-13.png'
+import book14 from '../assets2/books/book-14.png'
+import book15 from '../assets2/books/book-15.png'
+import book16 from '../assets2/books/book-16.png'
+import book17 from '../assets2/books/book-17.png'
+import book18 from '../assets2/books/book-18.png'
+import book19 from '../assets2/books/book-19.png'
+import book20 from '../assets2/books/book-20.png'
+import atomicHabits from '../assets2/books/Atomic_habits.jpg'
+import girlStop from '../assets2/books/girl-stop.png'
+import rideLifetime from '../assets2/books/ride-lifetime.png'
+import youngBucks from '../assets2/books/young-bucks.png'
+import youngBucks2 from '../assets2/books/young-bucks-2.png'
+
+// Demo books data - 2-3 books per category with single-line descriptions
+export const sampleBooks = [
+    // Fiction (3 books)
+    {
+        _id: '1',
+        title: 'The Great Gatsby',
+        author: 'F. Scott Fitzgerald',
+        isbn: '978-0-7432-7356-5',
+        description: ['A timeless tale of love, wealth, and the American Dream in the Jazz Age.'],
+        image: [book1],
+        category: 'Fiction',
+        publisher: 'Scribner',
+        publishedYear: 1925,
+        totalCopies: 5,
+        availableCopies: 3,
+        isAvailable: true
+    },
+    {
+        _id: '2',
+        title: 'To Kill a Mockingbird',
+        author: 'Harper Lee',
+        isbn: '978-0-06-112008-4',
+        description: ['A powerful story of racial injustice and childhood innocence in the American South.'],
+        image: [book2],
+        category: 'Fiction',
+        publisher: 'J.B. Lippincott & Co.',
+        publishedYear: 1960,
+        totalCopies: 4,
+        availableCopies: 2,
+        isAvailable: true
+    },
+    {
+        _id: '3',
+        title: 'Pride and Prejudice',
+        author: 'Jane Austen',
+        isbn: '978-0-14-143951-8',
+        description: ['A witty romance exploring love, class, and social expectations in Georgian England.'],
+        image: [book3],
+        category: 'Fiction',
+        publisher: 'Penguin Classics',
+        publishedYear: 1813,
+        totalCopies: 6,
+        availableCopies: 4,
+        isAvailable: true
+    },
+
+    // Non-Fiction (3 books)
+    {
+        _id: '4',
+        title: 'Atomic Habits',
+        author: 'James Clear',
+        isbn: '978-0-7352-1129-2',
+        description: ['Transform your life with tiny changes that deliver remarkable results over time.'],
+        image: [atomicHabits],
+        category: 'Non-Fiction',
+        publisher: 'Avery',
+        publishedYear: 2018,
+        totalCopies: 8,
+        availableCopies: 5,
+        isAvailable: true
+    },
+    {
+        _id: '5',
+        title: 'Sapiens: A Brief History of Humankind',
+        author: 'Yuval Noah Harari',
+        isbn: '978-0-06-231609-7',
+        description: ['An exploration of how Homo sapiens conquered the world through cognitive revolution.'],
+        image: [book4],
+        category: 'Non-Fiction',
+        publisher: 'Harper',
+        publishedYear: 2014,
+        totalCopies: 6,
+        availableCopies: 3,
+        isAvailable: true
+    },
+    {
+        _id: '6',
+        title: 'Educated',
+        author: 'Tara Westover',
+        isbn: '978-0-399-59050-4',
+        description: ['A memoir about education, family, and the struggle between loyalty and independence.'],
+        image: [book5],
+        category: 'Non-Fiction',
+        publisher: 'Random House',
+        publishedYear: 2018,
+        totalCopies: 5,
+        availableCopies: 2,
+        isAvailable: true
+    },
+
+    // Science (2 books)
+    {
+        _id: '7',
+        title: 'A Brief History of Time',
+        author: 'Stephen Hawking',
+        isbn: '978-0-553-38016-3',
+        description: ['Explore the mysteries of the universe from black holes to the Big Bang theory.'],
+        image: [book6],
+        category: 'Science',
+        publisher: 'Bantam',
+        publishedYear: 1988,
+        totalCopies: 4,
+        availableCopies: 2,
+        isAvailable: true
+    },
+    {
+        _id: '3',
+        title: '1984',
+        author: 'George Orwell',
+        isbn: '978-0-452-28423-4',
+        description: ['A dystopian social science fiction novel', 'Explores themes of totalitarianism and surveillance'],
+        image: [book3],
+        category: 'Fiction',
+        publisher: 'Secker & Warburg',
+        publishedYear: 1949,
+        totalCopies: 6,
+        availableCopies: 4,
+        isAvailable: true
+    },
+    {
+        _id: '4',
+        title: 'Pride and Prejudice',
+        author: 'Jane Austen',
+        isbn: '978-0-14-143951-8',
+        description: ['A romantic novel following Elizabeth Bennet', 'Critiques the British landed gentry at the end of the 18th century'],
+        image: [book4],
+        category: 'Literature',
+        publisher: 'T. Egerton',
+        publishedYear: 1813,
+        totalCopies: 3,
+        availableCopies: 1,
+        isAvailable: true
+    },
+    {
+        _id: '5',
+        title: 'The Catcher in the Rye',
+        author: 'J.D. Salinger',
+        isbn: '978-0-316-76948-0',
+        description: ['A controversial coming-of-age story', 'Narrated by the iconic character Holden Caulfield'],
+        image: [book5],
+        category: 'Fiction',
+        publisher: 'Little, Brown and Company',
+        publishedYear: 1951,
+        totalCopies: 4,
+        availableCopies: 2,
+        isAvailable: true
+    },
+    {
+        _id: '6',
+        title: 'A Brief History of Time',
+        author: 'Stephen Hawking',
+        isbn: '978-0-553-38016-3',
+        description: ['A popular science book on cosmology', 'Explains complex physics concepts in accessible language'],
+        image: [book6],
+        category: 'Science',
+        publisher: 'Bantam Books',
+        publishedYear: 1988,
+        totalCopies: 3,
+        availableCopies: 3,
+        isAvailable: true
+    },
+    {
+        _id: '7',
+        title: 'The Art of War',
+        author: 'Sun Tzu',
+        isbn: '978-1-59030-963-7',
+        description: ['Ancient Chinese military treatise', 'Influential work on strategy and tactics'],
+        image: [book7],
+        category: 'Philosophy',
+        publisher: 'Various',
+        publishedYear: -500,
+        totalCopies: 2,
+        availableCopies: 2,
+        isAvailable: true
+    },
+    {
+        _id: '8',
+        title: 'Steve Jobs',
+        author: 'Walter Isaacson',
+        isbn: '978-1-4516-4853-9',
+        description: ['Biography of Apple co-founder Steve Jobs', 'Based on interviews with Jobs himself'],
+        image: [book8],
+        category: 'Biography',
+        publisher: 'Simon & Schuster',
+        publishedYear: 2011,
+        totalCopies: 3,
+        availableCopies: 1,
+        isAvailable: true
+    },
+    {
+        _id: '9',
+        title: 'The Lean Startup',
+        author: 'Eric Ries',
+        isbn: '978-0-307-88789-4',
+        description: ['A methodology for developing businesses and products', 'Focuses on shortened product development cycles'],
+        image: [book9],
+        category: 'Business',
+        publisher: 'Crown Business',
+        publishedYear: 2011,
+        totalCopies: 4,
+        availableCopies: 3,
+        isAvailable: true
+    },
+    {
+        _id: '10',
+        title: 'Clean Code',
+        author: 'Robert C. Martin',
+        isbn: '978-0-13-235088-4',
+        description: ['A handbook of agile software craftsmanship', 'Best practices for writing maintainable code'],
+        image: [book10],
+        category: 'Technology',
+        publisher: 'Prentice Hall',
+        publishedYear: 2008,
+        totalCopies: 5,
+        availableCopies: 4,
+        isAvailable: true
+    },
+    {
+        _id: '11',
+        title: 'Sapiens',
+        author: 'Yuval Noah Harari',
+        isbn: '978-0-06-231609-7',
+        description: ['A brief history of humankind', 'Explores how Homo sapiens became the dominant species'],
+        image: [book11],
+        category: 'History',
+        publisher: 'Harper',
+        publishedYear: 2014,
+        totalCopies: 6,
+        availableCopies: 5,
+        isAvailable: true
+    },
+    {
+        _id: '12',
+        title: 'The Design of Everyday Things',
+        author: 'Don Norman',
+        isbn: '978-0-465-05065-9',
+        description: ['Principles of good design in everyday objects', 'How design affects human behavior and usability'],
+        image: [book12],
+        category: 'Arts',
+        publisher: 'Basic Books',
+        publishedYear: 1988,
+        totalCopies: 3,
+        availableCopies: 2,
+        isAvailable: true
+    },
+    {
+        _id: '13',
+        title: 'Educated',
+        author: 'Tara Westover',
+        isbn: '978-0-399-59050-4',
+        description: ['A memoir about education and family', 'Journey from survivalist family to Cambridge University'],
+        image: [book13],
+        category: 'Biography',
+        publisher: 'Random House',
+        publishedYear: 2018,
+        totalCopies: 4,
+        availableCopies: 3,
+        isAvailable: true
+    },
+    {
+        _id: '14',
+        title: 'Atomic Habits',
+        author: 'James Clear',
+        isbn: '978-0-7352-1129-2',
+        description: ['An easy & proven way to build good habits', 'Break bad habits with small changes that deliver remarkable results'],
+        image: [book14],
+        category: 'Health',
+        publisher: 'Avery',
+        publishedYear: 2018,
+        totalCopies: 5,
+        availableCopies: 4,
+        isAvailable: true
+    },
+    {
+        _id: '15',
+        title: 'The Pedagogy of the Oppressed',
+        author: 'Paulo Freire',
+        isbn: '978-0-8264-1276-8',
+        description: ['Educational philosophy and critical pedagogy', 'Advocates for critical consciousness and transformative education'],
+        image: [book15],
+        category: 'Education',
+        publisher: 'Continuum',
+        publishedYear: 1970,
+        totalCopies: 2,
+        availableCopies: 2,
+        isAvailable: true
+    }
+];
+
+export default sampleBooks;
