@@ -30,8 +30,18 @@ The system provides a **secure login for admins only** (no signup option for adm
 ---
 
 ## 🖼️ Project Preview  
-![Library Management System](./assets/website-preview.png)  
+
 ![Solution to problem 1](1.png)
+
+![Solution to problem 1](2.png)
+
+![Solution to problem 1](3.png)
+
+![Solution to problem 1](4.png)
+
+![Solution to problem 1](5.png)
+
+![Solution to problem 1](6.png)
 
 ---
 
